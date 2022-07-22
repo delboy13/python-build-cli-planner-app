@@ -1,3 +1,6 @@
+from datetime import date
+
+
 class PrefixedReminder:
     """This class acts as a base class for other types of reminders.
     Classes that subclass it should override the `self.text` property
